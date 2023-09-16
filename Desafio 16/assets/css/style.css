@@ -1,0 +1,18 @@
+* {
+  margin: 1vh;
+  padding: 1vh;
+}
+body {
+  display: flex;
+  justify-content: center;
+}
+
+.principalBox {
+  display: flex;
+  flex-direction: column;
+  width: 50vh;
+  height: 50vh;
+  border: 1vh solid black;
+  border-radius: 2vh;
+  background-color: #93aaf9;
+}

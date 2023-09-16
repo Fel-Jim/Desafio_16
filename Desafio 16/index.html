@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="./assets/css/style.css" />
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+  </head>
+  <body>
+    <section class="principalBox">
+      <h2>Pesos CLP</h2>
+      <p>
+        $
+        <input
+          class="inputToChange"
+          placeholder="Ingrese el monto en CLP"
+          type="number"
+        />
+      </p>
+      <h4>Monto a convertir:</h4>
+      <select class="inputChanger">
+        <option>---</option>
+        <option class="dolar" value="dolar">dolar</option>
+        <option class="euro" value="euro">euro</option>
+        <option class="uf" value="uf">UF</option>
+      </select>
+      <button class="btnChange">Calcular</button>
+      <div class="resultText"></div>
+      <canvas class="graficBox"></canvas>
+    </section>
+
+    <script src="./assets/js/script.js"></script>
+  </body>
+</html>
